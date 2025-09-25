@@ -1,5 +1,6 @@
 import path from 'node:path'
 import { fileURLToPath } from 'url'
+import "dotenv/config";
 
 const __firename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__firename)

@@ -16,9 +16,9 @@ async function server(){
     const query = await database('marcas').select('*')
     console.log(query)
 
-    database.raw('SELECT * FROM produtos').then(result => {
-        console.log(result)
-    })
+    // database.raw('SELECT * FROM produtos').then(result => {
+    //     console.log(result)
+    // })
 }
 
 server()
